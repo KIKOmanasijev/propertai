@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.prose h2:first-of-type,
+.prose h3:first-of-type {
+    @apply !mt-6 !mb-2;
+}
+
+.prose h2 {
+    @apply !mb-2;
+}
